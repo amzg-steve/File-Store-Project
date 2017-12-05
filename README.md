@@ -25,8 +25,15 @@ How to Build and run
 git clone https://github.com/murygin/rest-document-archive.git
 cd rest-document-archive
 mvn package
-java -jar target/rest-document-archive-0.1.0.jar
 ```
+```bash
+java -jar target/spring-boot-angJs-fileuploader-rest-0.1.0.jar
+```
+Or
+```bash
+./mvnw spring-boot:run
+```
+
 Directory name where the uploaded files will be stored:
 -------------
 **spring-boot-angJs-fileuploader-rest/fileStore**
