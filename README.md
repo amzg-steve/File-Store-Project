@@ -25,16 +25,18 @@ How to Build and run
 git clone https://github.com/amzg-steve/File-Store-Project.git
 #After extracting the files
 cd File-Store-Project-master/spring-boot-angJs-fileuploader-rest
-mvn package
 ```
 To start this Tomcat based application from pwd
 ```bash
-java -jar target/spring-boot-angJs-fileuploader-rest-0.0.1-SNAPSHOT.jar
-```
-Or
-```bash
 ./mvnw spring-boot:run
 ```
+Or
+
+```bash
+mvn package
+java -jar target/spring-boot-angJs-fileuploader-rest-0.0.1-SNAPSHOT.jar
+```
+
 How to invoke the client application ?
 -------------
 **http://localhost:8787/index.html**
