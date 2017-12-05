@@ -23,7 +23,8 @@ How to Build and run
 
 ```bash
 git clone https://github.com/amzg-steve/File-Store-Project.git
-cd rest-document-archive
+#After extracting the files
+cd File-Store-Project-master/spring-boot-angJs-fileuploader-rest
 mvn package
 ```
 For starting the Tomcat based application
