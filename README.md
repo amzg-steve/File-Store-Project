@@ -27,7 +27,7 @@ git clone https://github.com/amzg-steve/File-Store-Project.git
 cd File-Store-Project-master/spring-boot-angJs-fileuploader-rest
 mvn package
 ```
-For starting the Tomcat based application
+To start this Tomcat based application from pwd
 ```bash
 java -jar target/spring-boot-angJs-fileuploader-rest-0.0.1-SNAPSHOT.jar
 ```
@@ -43,7 +43,9 @@ Directory name where the uploaded files will be stored:
 -------------
 **spring-boot-angJs-fileuploader-rest/fileStore**
 
-Each file will be stored within individual child folders with a metadata.properties file
+Each file will be stored within individual child folders with a metadata.properties file.
+
+The file metadata displayed on the frontend if you click the **Show Files** button will come from this .properties file.
 
 
 ****Disclaimer: Application has been tested and verified on macOS, using Chrome and Firefox browsers.**
