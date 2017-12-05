@@ -15,7 +15,7 @@ The available Restful APIs as follows:
 * **Retrieve all files from store operation:**
 *http://localhost:8787/fileUploadApi/getallfiles GET*
 
-* **Delete all files from filesystem operation:
+* **Delete all files from filesystem operation:**
 *http://localhost:8787/fileUploadApi/deleteAll DELETE*
 
 How to Build and run
