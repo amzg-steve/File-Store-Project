@@ -22,7 +22,7 @@ How to Build and run
 -------------
 
 ```bash
-git clone https://github.com/murygin/rest-document-archive.git
+git clone https://github.com/amzg-steve/File-Store-Project.git
 cd rest-document-archive
 mvn package
 ```
