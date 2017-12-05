@@ -27,3 +27,6 @@ cd rest-document-archive
 mvn package
 java -jar target/rest-document-archive-0.1.0.jar
 ```
+Directory name where the uploaded files will be stored:
+-------------
+**spring-boot-angJs-fileuploader-rest/fileStore**
