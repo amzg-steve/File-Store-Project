@@ -7,7 +7,7 @@ A simple file system based archive with REST interface. An angularJS based web c
 The available Restful APIs as follows:
 
 * **Upload a file operation:**
-*http://localhost:8787/fileUploadApi/uploadfile?file={file} POST*
+*http://localhost:8787/fileUploadApi/uploadfile?uploadfile={filename.xxx} POST*
 
 * **Retrive a file from filesystem by file id operation:**
 *http://localhost:8787/fileUploadApi/file/{uuid} GET*
