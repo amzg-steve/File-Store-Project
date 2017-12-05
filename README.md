@@ -46,3 +46,6 @@ Directory name where the uploaded files will be stored:
 Each file will be stored within individual child folders with a metadata.properties file
 
 
+****Disclaimer: Application has been tested and verified on macOS, using Chrome and Firefox browsers.**
+
+
