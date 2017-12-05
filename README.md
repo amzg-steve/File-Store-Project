@@ -44,3 +44,5 @@ Directory name where the uploaded files will be stored:
 
 Each file will be stored within individual child folders with a metadata.properties file
 
+FileUploader_Api_Client.png
+
