@@ -29,7 +29,7 @@ mvn package
 ```
 For starting the Tomcat based application
 ```bash
-java -jar target/spring-boot-angJs-fileuploader-rest-0.1.0.jar
+java -jar target/spring-boot-angJs-fileuploader-rest-0.0.1-SNAPSHOT.jar
 ```
 Or
 ```bash
