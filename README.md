@@ -26,6 +26,7 @@ git clone https://github.com/murygin/rest-document-archive.git
 cd rest-document-archive
 mvn package
 ```
+For starting the Tomcat based application
 ```bash
 java -jar target/spring-boot-angJs-fileuploader-rest-0.1.0.jar
 ```
@@ -33,6 +34,9 @@ Or
 ```bash
 ./mvnw spring-boot:run
 ```
+How to invoke the client application ?
+-------------
+**http://localhost:8787/index.html**
 
 Directory name where the uploaded files will be stored:
 -------------
