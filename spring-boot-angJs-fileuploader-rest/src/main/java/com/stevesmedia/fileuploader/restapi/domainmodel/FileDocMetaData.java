@@ -16,15 +16,15 @@ public class FileDocMetaData implements Serializable {
 
 	private static final Logger LOG = Logger.getLogger(FileDocMetaData.class);
 
-	public static final String PROP_UUID = "id";
-	public static final String PROP_FILE_NAME = "file-name";
-	public static final String PROP_FILE_SIZE = "file-size";
-	public static final String PROP_DOCUMENT_DATE = "file-timestamp";
+	private static final String PROP_UUID = "id";
+	private static final String PROP_FILE_NAME = "file-name";
+	private static final String PROP_FILE_SIZE = "file-size";
+	private static final String PROP_DOCUMENT_DATE = "file-timestamp";
 
-	protected String uuid;
-	protected String mfileName;
-	protected String mtimeStamp;
-	protected String mfileSize;
+	private static String uuid;
+	private static String mfileName;
+	private static String mtimeStamp;
+	private static String mfileSize;
 
 	public FileDocMetaData() {
 		super();
