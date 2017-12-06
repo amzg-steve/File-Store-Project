@@ -18,7 +18,7 @@ The available Restful APIs as follows:
 * **Delete all files from filesystem operation:**
 *http://localhost:8787/fileUploadApi/deleteAll DELETE*
 
-How to Build and run
+How to Build and run ?
 -------------
 
 ```bash
