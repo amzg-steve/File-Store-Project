@@ -21,10 +21,10 @@ public class FileDocMetaData implements Serializable {
 	private static final String PROP_FILE_SIZE = "file-size";
 	private static final String PROP_DOCUMENT_DATE = "file-timestamp";
 
-	private static String uuid;
-	private static String mfileName;
-	private static String mtimeStamp;
-	private static String mfileSize;
+	private  String uuid;
+	private  String mfileName;
+	private  String mtimeStamp;
+	private  String mfileSize;
 
 	public FileDocMetaData() {
 		super();
