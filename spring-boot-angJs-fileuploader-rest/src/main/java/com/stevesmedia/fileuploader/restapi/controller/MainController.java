@@ -29,14 +29,7 @@ import com.stevesmedia.fileuploader.restapi.service.FileUploaderService;
  * All service calls are delegated to instances of {@link FileUploaderService}
  * 
  * /fileUploadApi/uploadfile?file={file}  				   Uplolad file by POST
- *   file: A file posted in a multipart request
- *   
- * /archive/documents							           Find documents by GET
- *   date: The date of the document
- *   
- * /archive/document/{id}                                   Get a document by GET
- *   id: The UUID of a document
- * 
+ *   file: A file posted in a multipart request 
  * @author steves
  */
 @RestController
